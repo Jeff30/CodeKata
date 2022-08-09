@@ -13,6 +13,7 @@ It will need 3 entire years. """
 
 def nb_year(p0, percent, aug, p):
     perc = percent /100
+    print(perc)
     year = p0 + (p0 + perc) + aug 
     print(year) 
     return
